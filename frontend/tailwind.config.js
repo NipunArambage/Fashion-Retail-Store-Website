@@ -5,10 +5,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Montserrat', 'sans-serif'],
+      },
       colors: {
         primary: {
-          500: '#667eea',
-          600: '#764ba2',
+          500: '#000000',
+          600: '#1a1a1a',
         }
       },
       animation: {
